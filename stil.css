@@ -1,0 +1,17 @@
+/* Domicats sitesi: dış kaynak yok (yazı tipi, analitik, çerez yok). */
+:root { color-scheme: light dark; --vurgu: #c2185b; }
+body { margin: 0; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #fff8f2; color: #2b2320; }
+main { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
+h1 { font-size: 1.9rem; margin: 1rem 0 .25rem; }
+h2 { font-size: 1.2rem; margin: 1.8rem 0 .4rem; }
+a { color: var(--vurgu); }
+.ust { font-size: .95rem; }
+.tarih { color: #7a6a62; margin-top: 0; }
+.ozet { background: #ffe9dc; border-radius: 12px; padding: .9rem 1.1rem; }
+hr { border: 0; border-top: 1px solid #e8d8cc; margin: 3rem 0 1rem; }
+pre { white-space: pre-wrap; font-size: .8rem; background: #f6ece4; padding: 1rem; border-radius: 8px; }
+summary { cursor: pointer; }
+@media (prefers-color-scheme: dark) {
+  body { background: #1f1a18; color: #eee3dc; } a { color: #ff8ab3; } .tarih { color: #b3a49b; }
+  .ozet { background: #3a2a24; } hr { border-top-color: #3d322d; } pre { background: #2a2320; }
+}
